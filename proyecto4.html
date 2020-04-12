@@ -1,54 +1,82 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<title> Reglamentación </title>
+
+<style>
+          body {margin: 100px; text-align: justify; }
+
+          table  {margin: 50px;
+                  text-align: justify;
+                  border: 2px solid black;
+                  border-collapse: collapse; }
+
+          th, td {
+                     border: 1px solid black;
+                     padding: 5px;
+                     text-align: center; }
+
+          th {
+                     background-color: lightgray; }
+
+          .peque  {
+              background-color: grey; font-size: 20px; margin: 0px; padding: 20px; width: 80%px}
+
+          #title { margin:  30px; font-family: sans-serif; font-size: 50; font-weight: bold; text-align: center;}
+          #links {text-align: center;}
+ </style>
 
     <head>
-        <title> Reglamentación </title>
-
-        <style>
-                   .grid {
-                       background-color: grey;
-                       display: grid;
-                       padding: 20px;
-                       grid-column-gap: 20px;
-                       grid-row-gap: 10px;
-                       grid-template-columns: 200px 200px auto;
-                   }
-
-                   .grid-item {
-                       background-color: white;
-                       font-size: 20px;
-                       padding: 20px;
-                       text-align: center;
-                   }
-               </style>
-
+      <div class="peque">
+         <h6 id="title"> MARCO NORMATIVO PARA CONSUMO DE ENERGIA REACTIVA EN COLOMBIA
+         </h6>
+      </div>
     </head>
+
     <body>
-        <h1> MARCO NORMATIVO EN COLOMBIA</h1>
-        <h2>
+        <div  id="title"   > MARCO NORMATIVO EN COLOMBIA PARA EL CONSUMO DE ENERGIA REACTIVA</div>
+        <h6>
         Desde el pasado 14 de mayo del año 2014 entró en operación el nuevo Código de Medida, establecido en la Resolución 038/2014 de la Comisión de Regulación de Energía y Gas CREG. En él se determinan, las características técnicas de los sistemas de medición, requerimientos de exactitud, instalación y pruebas, responsabilidades de las empresas y usuarios en el proceso de medición de energía eléctrica, entre otros, garantizando de esta manera mediciones más precisas y confiables que se verán reflejadas en la facturación de los usuarios.
         CHEC como empresa prestadora de servicio público debe velar por el cumplimiento de la normatividad y de lo estipulado en dicha resolución, por tal motivo ponemos en conocimiento de todos nuestros usuarios y grupos de interés algunos de sus aspectos más relevantes, conscientes de que estos temas pueden tener mayor impacto e influencia en los Usuarios del Mercado no Regulado (usuarios con altos consumos-industrias-comerciales-grandesusuarios), sin excepción de las obligaciones y responsabilidades de los usuarios regulados (Usuarios residencial y comercial).
-        </h2>
-
-        COMPARACIÓN DE BANCOS DE condensadores
-
-        <div class="grid">
-          <div class="grid-item"> Sistema </div>
-          <div class="grid-item"> Ventajas </div>
-          <div class="grid-item"> Desventajas </div>
-          <div class="grid-item">Condensadores individuales</div>
-          <div class="grid-item">técnicamente eficiente, más flexible</div>
-          <div class="grid-item">Mayor costo de instalación y mantenimiento</div>
-          <div class="grid-item">Banco fijo</div>
-          <div class="grid-item">Lo más económico, menos instalaciones</div>
-          <div class="grid-item">Menos flexible, requiere interruptores y / o interruptores automáticos</div>
-          <div class="grid-item">Banco automático</div>
-          <div class="grid-item">Lo mejor para cargas variables, evita sobretensiones, bajo costo de instalación</div>
-          <div class="grid-item">Mayor costo de equipo</div>
-      </div>
+        <div id="title">
+        VENTAJAS Y DESVENTAJAS DE LOS DIFERENTES BANCOS DE CONDENSADORES
+        </div>
+        <table >
+            <tr>
+                <th></th>
+                <th>Ventajas</th>
+                <th>Desventajas</th>
+            </tr>
+            <tr>
+                <th>Condensadores individuales</td>
+                <td>técnicamente eficiente, más flexible</td>
+                <td>Mayor costo de instalación y mantenimiento</td>
+            </tr>
+            <tr>
+                <th> <a  href="proyecto2.html"> BANCO DE CONDENSADORES FIJO </a> </td>
+                <td>Lo más económico, menos instalaciones</td>
+                <td>Menos flexible, requiere interruptores y / o interruptores automáticos</td>
+            </tr>
+            <tr>
+                <th> <a href="proyecto3.html"> BANCO DE CONDENSADORES AUTOMATICO </a> </td>
+                <td>Lo mejor para cargas variables, evita sobretensiones, bajo costo de instalación</td>
+                <td>Mayor costo de equipo</td>
+            </tr>
+        </table>
     </body>
+
     <footer>
-          <a href="proyecto1.html"> VOLVER AL INICIO </a>
+
+        <div align="center" class="peque">
+          <button type="button" class="btn btn-sucess" align: "center" >
+            <p id="links">
+                <a ; href="proyecto1.html"> VOLVER AL INICIO </a>
+            </p>
+          </button>
+
+            </div>
+
+
     </footer>
 
 </html>
