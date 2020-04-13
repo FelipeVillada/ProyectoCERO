@@ -1,5 +1,9 @@
-# ProyectoCERO  is a student program for the course "Web Programming with Python and JavaScript" of HarvardX.
-# The page is written in spanich lenguage that is may native lenguage but can be traslate easlly.
+https://www.youtube.com/watch?v=HBoM8ClI5mw&feature=youtu.be
+Link to Youtube video.
+----------------------------------
+
+ProyectoCERO  is a student program for the course "Web Programming with Python and JavaScript" of HarvardX.
+The page is written in spanich lenguage that is may native lenguage but can be traslate easlly.
 
 The project is one example for the small company of my boss: ENERGECOL in Colombia,  is a company that has been workink for years with electrical equipment known as capacitor banks.
 
